@@ -5,6 +5,7 @@ let g:coc_global_extensions = [
       \   'coc-snippets',
       \   'coc-tsserver',
       \   'coc-yaml',
+      \   'coc-sh',
       \ ]
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
